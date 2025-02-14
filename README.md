@@ -68,7 +68,7 @@
 
 
 
-# Exemplo de aplicação dentro do Projeto
+# Segmentação e Extração de Características de Impressões Digitais Neonatais
 ## Segmentação e Filtragem 
 Com o segmentador `SEGV4.h5`, fornecido pela empresa NatoSafe, foi possível obter resultados mais satisfatórios na separação da região de interesse da impressão digital. Ao aplicar o filtro de detecção de bordas Sobel, observou-se que a segmentação conseguiu atuar melhor e cobrir mais regiões relevantes da imagem.
 
