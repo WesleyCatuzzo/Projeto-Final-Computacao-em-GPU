@@ -95,7 +95,7 @@ Como demonstrado abaixo, o frame segmentado e filtrado resultou em um maior núm
 </p>
 
 ## Conclusão
-As características encontradas na superfície do dedo são fundamentais para identificar cada indivíduo, tornando-os únicos. Dessa forma, a aplicação de filtros na etapa de segmentação pode desempenhar um papel essencial, aprimorando a detecção e extração de características, o que pode impactar positivamente a precisão dos sistemas biométricos.
+É possível obter melhorias nos filtros ajustando sua complexidade, o que pode resultar em uma detecção e extração de características mais precisas. As características encontradas na superfície do dedo são fundamentais para identificar cada indivíduo, tornando-os únicos. Dessa forma, a aplicação de filtros na etapa de segmentação pode desempenhar um papel essencial, aprimorando a detecção e extração de características, o que pode impactar positivamente a precisão dos sistemas biométricos.
 
 ## 📜 Licença
 
