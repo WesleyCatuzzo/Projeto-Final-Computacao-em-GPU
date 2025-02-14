@@ -38,27 +38,27 @@
 ![demo](https://github.com/user-attachments/assets/83809761-8e64-4db4-97e5-c8de889784ab)
 
 ## 📊 Resultados
-![image](https://github.com/user-attachments/assets/6c2b80dd-949f-429c-856e-7dde6aabd8b3)
+![image](https://github.com/user-attachments/assets/5d585234-deaf-42ac-90ee-bf6c75d059f6)
 
 ### 🟢 Filtro Gaussiano (Borramento)
-- **SNR:** 23.906 → O filtro Gaussiano preservou grande parte do sinal original enquanto reduziu o ruído.  
-- **SSIM:** 0.916 → A imagem borrada mantém alta semelhança estrutural com a original.  
+- **SNR:** 27.083 → O filtro Gaussiano preservou grande parte do sinal original enquanto reduziu o ruído.  
+- **SSIM:** 0.955 → A imagem borrada mantém alta semelhança estrutural com a original.  
 
 **🔎 Conclusão:** O filtro Gaussiano demonstrou ser o mais eficaz para preservar a estrutura da imagem enquanto suaviza o ruído.  
 
 ---
 
 ### 🔵 Filtro Sobel (Detecção de Bordas)
-- **SNR:** 18.341 → A combinação da imagem original com as bordas detectadas pelo Sobel preservou as informações do sinal original.  
-- **SSIM:** 0.775 → A imagem resultante é estruturalmente muito semelhante à original.  
+- **SNR:** 20.166 → A combinação da imagem original com as bordas detectadas pelo Sobel preservou as informações do sinal original.  
+- **SSIM:** 0.823 → A imagem resultante é estruturalmente muito semelhante à original.  
 
 **🔎 Conclusão:** A detecção de bordas com o filtro Sobel foi eficaz, resultando em uma imagem que preserva mais informações e mantém boa similaridade estrutural com a original.  
 
 ---
 
 ### 🟠 Filtro de Nitidez
-- **SNR:** 15.876 → O SNR reduzido era esperado, pois o filtro de nitidez introduz um leve ruído ao realçar os detalhes.  
-- **SSIM:** 0.881 → A imagem com nitidez aumentada é um pouco mais semelhante à original em termos estruturais.  
+- **SNR:** 15.965 → O SNR reduzido era esperado, pois o filtro de nitidez introduz um leve ruído ao realçar os detalhes.  
+- **SSIM:** 0.908 → A imagem com nitidez aumentada é um pouco mais semelhante à original em termos estruturais.  
 
 **🔎 Conclusão:** O filtro de nitidez manteve um bom desempenho, com uma leve melhoria na similaridade estrutural, apesar do aumento do ruído.  
 
