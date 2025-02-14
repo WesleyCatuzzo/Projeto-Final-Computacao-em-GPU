@@ -1,1 +1,79 @@
-# Projeto-Final-Computacao-em-GPU
+# ProjetoFinal-Computacao-em-GPU
+
+# 📌 Filtros de Imagem com GPU
+
+&#x20;
+
+> Implementação de diversos filtros de imagem utilizando GPU com CuPy e Numba para o processamento de imagens biométricas.
+
+## 🚀 Tecnologias Utilizadas
+
+- 🖥️ OpenCV
+- ⚡ CuPy
+- 🔥 Numba CUDA
+- 🏞️ skimage (SSIM)
+- 📊 NumPy
+
+## 📦 Como Usar no Google Colab
+
+1. Acesse o Google Colab e crie um novo notebook.
+2. Instale as dependências necessárias no ambiente executando:
+   ```python
+   !uv pip install -q --system numba-cuda==0.4.0
+   ```
+  3. Faça o upload do arquivo de código no Colab.
+4. Execute as células do notebook para aplicar os filtros e visualizar os resultados.
+
+## ✅ Funcionalidades
+
+- ✅ Aplicação de filtros na GPU usando CuPy e Numba
+- ✅ Filtro Gaussiano (borramento)
+- ✅ Filtro Laplaciano (detecção de bordas)
+- ✅ Filtro de nitidez (com combinação de suavização)
+- ✅ Filtro Sobel combinado (detecção de bordas)
+- ✅ Cálculo de métricas: SNR e SSIM
+
+## 📸 Demonstração
+
+![demo](https://github.com/user-attachments/assets/83809761-8e64-4db4-97e5-c8de889784ab)
+
+## 📊 Resultados
+![image](https://github.com/user-attachments/assets/6c2b80dd-949f-429c-856e-7dde6aabd8b3)
+
+### 🟢 Filtro Gaussiano (Borramento)
+- **SNR:** 23.906 → O filtro Gaussiano preservou grande parte do sinal original enquanto reduziu o ruído.  
+- **SSIM:** 0.916 → A imagem borrada mantém alta semelhança estrutural com a original.  
+
+**🔎 Conclusão:** O filtro Gaussiano demonstrou ser o mais eficaz para preservar a estrutura da imagem enquanto suaviza o ruído.  
+
+---
+
+### 🔵 Filtro Sobel (Detecção de Bordas)
+- **SNR:** 18.341 → A combinação da imagem original com as bordas detectadas pelo Sobel preservou as informações do sinal original.  
+- **SSIM:** 0.775 → A imagem resultante é estruturalmente muito semelhante à original.  
+
+**🔎 Conclusão:** A detecção de bordas com o filtro Sobel foi eficaz, resultando em uma imagem que preserva mais informações e mantém boa similaridade estrutural com a original.  
+
+---
+
+### 🟠 Filtro de Nitidez
+- **SNR:** 15.876 → O SNR reduzido era esperado, pois o filtro de nitidez introduz um leve ruído ao realçar os detalhes.  
+- **SSIM:** 0.881 → A imagem com nitidez aumentada é um pouco mais semelhante à original em termos estruturais.  
+
+**🔎 Conclusão:** O filtro de nitidez manteve um bom desempenho, com uma leve melhoria na similaridade estrutural, apesar do aumento do ruído.  
+
+---
+
+📌 *Essas métricas indicam como cada filtro impacta a imagem em termos de preservação da estrutura e redução de ruído. Dependendo do objetivo da aplicação, um filtro pode ser mais adequado que outro.* 🚀
+
+
+## 📜 Licença
+
+
+
+Feito com ❤️ por [Wesley](https://github.com/WesleyCatuzzo)!
+
+
+
+
+ 
