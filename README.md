@@ -64,7 +64,22 @@
 
 ---
 
-📌 *Essas métricas indicam como cada filtro impacta a imagem em termos de preservação da estrutura e redução de ruído. Dependendo do objetivo da aplicação, um filtro pode ser mais adequado que outro.* 🚀
+📌 *Essas métricas indicam como cada filtro impacta a imagem em termos de preservação da estrutura e redução de ruído. Dependendo do objetivo da aplicação, um filtro pode ser mais adequado que outro.* 
+
+
+
+## Exemplo de aplicação dentro do Projeto
+
+🔹 Em posse do segmentador "SEGV4.h5" disponibilizado pela empresa NatoSafe, foi possível obter um resultado mais satisfatório com a utilização por exemplo do Filtro Sobel (detecção de bordas).
+Percebe-se que o segmentador conseguiu atuar melhor e cumprir seu papel em mais regiões da imagem.
+
+
+![frame_1_seg](https://github.com/user-attachments/assets/ad712721-d5cf-424e-950b-0caa759cfe5d)
+
+
+![edges_sobel_seg](https://github.com/user-attachments/assets/61163de3-3be1-480c-a2b6-439649c6b4bb)
+
+
 
 
 ## 📜 Licença
