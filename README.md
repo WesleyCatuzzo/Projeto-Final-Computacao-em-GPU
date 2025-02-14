@@ -87,14 +87,15 @@ Após a segmentação e aplicação do filtro, a ferramenta MINDTCT foi utilizad
 ![edges_sobel_seg_red (1)](https://github.com/user-attachments/assets/1084c3e6-9e47-4c47-91b9-5032cc083b11)
 
 ## Comparativo de Características Detectadas. 
-Como demonstrado abaixo, o frame segmentado e filtrado resultou em um maior número de características detectadas, evidenciando a eficiência da segmentação e dos filtro aplicado.
+Como demonstrado abaixo, o frame segmentado e filtrado resultou em um maior número de características detectadas, evidenciando a eficiência da segmentação e do filtro aplicado.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/405ae62c-f0ff-45d2-8d36-faa1ef84d2ed" width="25%">
   <img src="https://github.com/user-attachments/assets/1d077092-8749-4016-90fb-c11784e15560" width="25%">
 </p>
 
-
+## Conclusão
+As características encontradas na superfície do dedo são fundamentais para identificar cada indivíduo, tornando-os únicos. Dessa forma, a aplicação de filtros na etapa de segmentação pode desempenhar um papel essencial, aprimorando a detecção e extração de características, o que pode impactar positivamente a precisão dos sistemas biométricos.
 
 ## 📜 Licença
 
