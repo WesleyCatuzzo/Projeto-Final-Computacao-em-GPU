@@ -33,7 +33,7 @@
 - ✅ Filtro Sobel combinado (detecção de bordas)
 - ✅ Cálculo de métricas: SNR e SSIM
 
-## 📸 Demonstração
+## 📸 Demonstração (frame_1)
 
 ![demo](https://github.com/user-attachments/assets/83809761-8e64-4db4-97e5-c8de889784ab)
 
